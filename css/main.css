@@ -1,0 +1,10 @@
+.container{
+    width: 1175px;
+    margin: auto;
+    outline: black solid 1px;
+}
+.quick{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
