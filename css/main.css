@@ -8,3 +8,42 @@
     justify-content: space-between;
     height: 40px;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+}
+.banner{
+    height: 545px;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    height: 575px;
+}
+.about .image1{
+    width: 50%;
+}
+.about .image1 img{
+    width: 100%;
+    height: 575px;
+
+}
+.about .image1 .abou{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    color: #5c768d;
+    margin-bottom: 0%;
+    
+}  
+
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    height: 511px;
+}
+.feature .a1{
+    width: 33.33%;
+    
+}
