@@ -71,9 +71,12 @@
 .benz .feature-text{
     width: 80%;
     padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909090;
+    
 }
 
-.feature-text .tel{
+.feature-text .te{
     padding-top: 10px;
     font-size: 18px;
     font-weight: 600;
@@ -185,7 +188,7 @@
     flex-wrap: wrap;
 }
 .service-list .service-box{
-    width: 350px;
+    width: 30%;
     padding-left: 15px;
     padding-right: 15px;
 }
