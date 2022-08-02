@@ -227,8 +227,26 @@
     box-shadow: 0px 0px 20px #468DCB;
     transition: all 0.5s;
 }
+.porthead{
+    display: block;
+    background-color:#F5F9FC;
+    margin-bottom: -10px;
+}
+.porthead h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+    color: #5C768D;
+
+}
+.porthead p{
+    text-align: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .portfolio{
-    
+    background-color: #F5F9FC;
 }
 .portfolio-list{
     display: flex;
@@ -236,19 +254,23 @@
     background-color: #F5F9FC;
 }
 .portfolio-box{
-    width: 30%;
+    width: 360px;
     height: 267px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 20px;
+    margin-left: 15px;
     position: relative;
     overflow: hidden;
+    margin-right: 15px;
+    margin-top: 20px;
+     margin-bottom: 20px;   
 }
 .portfolio-box img{
-    display: block;
+    
     width: 100%;
     height: 267px;
     transition: all 0.5s ease;
+    top: 0;
+    display: block;
+    
 }
 .portfolio-box:hover img{
     transform: scale(1.2);
@@ -256,12 +278,12 @@
 
 .portfolio-text{
     position: absolute;
-    width: 90%;
+    width: 1000%;
     top: 0%;
     margin-top: 25px;
     margin-top: 1px;
     background-color: currentColor;
-    height: 267px;
+    height: 290px;
     width: 391px;
     color: rgba(0, 0, 0, 0.41);
     display: flex;
@@ -271,7 +293,7 @@
     transform: all 0.5s ease;
 }
 .portfolio-box:hover .portfolio-text{
-    opacity: 1;
+    opacity: 1 ;
 }
 
 
