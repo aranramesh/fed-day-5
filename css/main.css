@@ -278,7 +278,7 @@
 
 .portfolio-text{
     position: absolute;
-    width: 1000%;
+    width: 100%;
     top: 0%;
     margin-top: 25px;
     margin-top: 1px;
@@ -322,4 +322,57 @@
     text-align: center;
     text-decoration: none;
     line-height: 20px;
+}
+
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.team-box{
+    width: 23%;
+    height: 260px;
+    padding-right: 20px;
+    position: relative;
+
+    
+}
+.team-box img{
+    width: 100%;
+    height:260px;
+    display: block;
+}
+.our-line{
+    height: 1px;
+    width: 40px;
+    background-color: white;
+    margin-left: 95px;
+    margin-top: -15px;
+    
+}
+.our-text{
+   width:80%;
+   height: 130px;
+   background: linear-gradient(360deg, rgb(92, 118, 141) 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);;
+   border-radius: 5px;
+   position: absolute;
+   top: 68%;
+   margin-left: 20px;
+   text-align: center;
+   
+}
+.our-text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #fff;
+}
+.our-icon a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 20px;
+}
+.our-line .h5{
+    font-style: italic;
 }
