@@ -159,11 +159,15 @@
     padding: 20px 15px;
     box-shadow:  0px 0px 10px #9c9c9c; 
 }
-.number-text h4{
+.number-text h6{
     font-size: 42px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: #1C5C93;
+    margin: auto;
+    margin-bottom: -15px;
+    margin-top: 13px;
+
 }
 .number-text p{
     font-family: Arial, Helvetica, sans-serif;
@@ -336,23 +340,25 @@
     padding-right: 20px;
     position: relative;
     padding-top: 30px;
-    
-
-    
+   
 }
+
 .team-box:hover img{
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
+
 .pic{
     overflow: hidden;
     
 }
+
 .pic img{
     width: 100%;
     height:260px;
     display: block;
 }
+
 .our-line{
     height: 1px;
     width: 40px;
@@ -361,6 +367,7 @@
     margin-top: -5px;
     
 }
+
 .our-text{
    width:80%;
    height: 130px;
@@ -372,6 +379,7 @@
    text-align: center;
    
 }
+
 .our-text h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -384,6 +392,7 @@
     text-decoration: none;
     line-height: 20px;
 }
+
 .our-text .h5{
     font-style: italic;
     color: #fff;
@@ -391,3 +400,108 @@
     font-size: 15px;
     padding-top: 10px;
 }
+.fahead{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.FAQ{
+    background-color: #F5F9FC;
+    margin-top: 110px;
+}
+.fahead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin-bottom: -10px;
+    color: #5C768D;
+}
+.FAQ-box{
+    display: flex;
+    padding-top: 30px;
+    
+}
+.FAQ-list{
+    width: 50%;
+    padding-left: 10px;    
+}
+.faq-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#5C768D;
+    padding-top: 21px;
+}
+.faq-info-2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444;
+}
+.faq-info-0{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#5C768D;
+    padding-top: 21px;
+    margin-top: 49px;
+}
+.faq-info-5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444;
+    margin-top: 49px;
+}
+
+.contact-box{
+    display: flex;
+    margin-top: 30px;
+   
+    
+}
+.contact-list-1{
+    width: 547px;
+    height: 197px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+   
+}
+.contact-list-2{
+    width: 270px;
+    height: 197px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+    
+
+}
+.contact-list-3{
+    width: 270px;
+    height: 197px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: rgba(0, 0, 10px, #444);
+    
+    
+}
+.contact-icons a{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 100%;
+    border:  2px dotted #428BCA;
+    text-align: center; 
+    margin: 0 auto; 
+    font-size: 30px;
+    text-decoration: none;
+   
+
+   
+}
+
+
+
