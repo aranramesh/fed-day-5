@@ -335,10 +335,20 @@
     height: 260px;
     padding-right: 20px;
     position: relative;
+    padding-top: 30px;
+    
 
     
 }
-.team-box img{
+.team-box:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.pic{
+    overflow: hidden;
+    
+}
+.pic img{
     width: 100%;
     height:260px;
     display: block;
@@ -348,7 +358,7 @@
     width: 40px;
     background-color: white;
     margin-left: 95px;
-    margin-top: -15px;
+    margin-top: -5px;
     
 }
 .our-text{
@@ -364,15 +374,20 @@
 }
 .our-text h4{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 15px;
     color: #fff;
 }
+
 .our-icon a{
     color: #fff;
     text-decoration: none;
     line-height: 20px;
 }
-.our-line .h5{
+.our-text .h5{
     font-style: italic;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
 }
