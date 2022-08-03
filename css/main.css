@@ -461,6 +461,7 @@
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
+    box-shadow: 10px 10px 10px #999;
    
    
 }
@@ -470,6 +471,8 @@
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
+    box-shadow: 10px 10px 10px #999;
+   
    
     
 
@@ -480,12 +483,23 @@
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
-    box-shadow: rgba(0, 0, 10px, #444);
+    box-shadow: rgba(0, 0, 10px,#C0C0C0);
     
     
 }
+.u20{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:#607d8b;
+}
+.v20{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
 .contact-icons a{
     margin-top: -10px;
+    color: #428BCA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -497,11 +511,51 @@
     text-align: center; 
     margin: 0 auto; 
     font-size: 30px;
-    text-decoration: none;
-   
+    text-decoration: none;  
+}
+.forms{
+    
+    
+    background-color: #fff;
+    box-shadow: 0 0 20px #C0C0C0;
+}
+.userforms{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 79px;
+    padding: 25px;
+}
+.col-50{
+    width: 45%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 18px;
 
+}
+.col-501{
+    width:48%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+     
+.col-100{
+    width: 100%;
+    padding: 13px
+}
+.form-group .form-list{
+    width: 100%;
+    margin-top: 27px;
+    line-height: 3;
+    
+}
+.form-btn{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-btn .btn{
+    margin-top: 10px;
+    width: 172px;
+    background-color: #438BCA;
+    height: 47px;
    
 }
-
-
-
