@@ -4,6 +4,7 @@
     margin: auto;
    
 }
+
 .quick{
     display: flex;
     justify-content: space-between;
@@ -12,6 +13,12 @@
 .fico{
     color: #428BCA;
 }
+.mob{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+}
+
 .info{
     justify-content: space-around;
 }
@@ -21,12 +28,47 @@
     height: 72px;
 }
 .banner{
-    height: 545px;
+    height: 500px;
+    width: 100%;
+    
+}
+.banner .bannerimg{
+    background-image: url(../mani.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.bannersec{
+    position: relative;
+    top: 0% ;
+    text-align: justify;
+    padding-top: 167px;
+}
+.banner .bannerimg::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    
+    
+}
+.banner h1{
+    font-size: 1cm;
+    
 }
 .about{
     display: flex;
     flex-wrap: wrap;
     height: 575px;
+    box-sizing: content-box;
+    animation: 1s ease-in-out;
+}
+.about{
+
+        transform: translateY(-%);
+    
 }
 .about .image1{
     width: 50%;
@@ -57,6 +99,7 @@
     font-size: 20px;
     font-weight: 500;
 }
+
 .benz{
     display: flex;
 }
@@ -600,6 +643,7 @@
 .feet{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fff;
+    
 }
 .finico a{
     color: #fff;
