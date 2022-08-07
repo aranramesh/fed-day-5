@@ -19,17 +19,57 @@
     font-weight: 100;
 }
 
-.info{
-    justify-content: space-around;
+.inform a{
+    color: #5c768d;
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+    text-decoration: none;
+  
+}
+.inform a:hover{
+    color: #428BCA;
 }
 .header{
     display: flex;
     justify-content: space-between;
     height: 72px;
 }
+.mamba{
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #1C5C93;
+    font-family: sans-serif;
+}
+.navi .ul{
+    float: right;
+    list-style-type: lower-roman;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: solid;
+    color: #5c768d;
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    transition: 0.6s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navi a:hover{
+    color: #428BCA;
+}
 .banner{
     height: 500px;
     width: 100%;
+    margin-bottom: 68px;
     
 }
 .banner .bannerimg{
@@ -43,7 +83,7 @@
     position: relative;
     top: 0% ;
     text-align: justify;
-    padding-top: 167px;
+    padding-top: 60px;
 }
 .banner .bannerimg::after{
     content: "";
@@ -55,21 +95,42 @@
     
 }
 .banner h1{
-    font-size: 1cm;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;    
+}
+.bannersec p{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -19px;
+    margin-bottom: 28px;
+}
+.bannersec a{
+    background: #428bca;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    border: 0;
+    text-decoration: none;
     
 }
+
 .about{
     display: flex;
     flex-wrap: wrap;
     height: 575px;
     box-sizing: content-box;
-    animation: 1s ease-in-out;
-}
-.about{
+    box-shadow: 10px 10px 10px   #999;
 
-        transform: translateY(-%);
-    
 }
+
 .about .image1{
     width: 50%;
    
@@ -81,7 +142,7 @@
 }
 .about .image1 .abou{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  Arial, Helvetica, sans-serif;
     padding-top: 30px;
     color: #5c768d;
     margin-bottom: 0%;
@@ -93,19 +154,25 @@
 .about .image1 .par{
     text-align: center;
     padding: 10px;
-    color: lightgray;   
+    color: #464646;   
     font-style: oblique;
     font: bold;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
+}
+.benz .feature-icon:hover{
+    background-color: #1C5C93;
+    
+
+    
 }
 
 .benz{
     display: flex;
 }
 .benz .feature-icon{
-    width:70px;
-    height: 70px;
+    width: 72px;
+    height: 72px;
     background-color:#F5F9FC;
     font-size: 30px;
     margin-left: 50px;
@@ -113,7 +180,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    border-radius: 5px;
+    border-radius: 6px;
     color: #428BCA;
 }
 
@@ -130,6 +197,11 @@
     padding-top: 10px;
     font-size: 18px;
     font-weight: 600;
+    color: #464646;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.feature-text .pa{
+    color: #464646;
 }
 .advantage-section{
     display: flex;
@@ -299,8 +371,29 @@
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .portfolio{
     background-color: #F5F9FC;
+}
+.port{
+    text-align: center;
+}
+.port .finbut:hover{
+    color: #fff;
+    background-color: #1C5C93;
+}
+.port .finbut{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #444;
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 5px;
+    border: none;
+
 }
 .portfolio-list{
     display: flex;
